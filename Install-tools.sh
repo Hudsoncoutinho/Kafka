@@ -35,6 +35,18 @@ sudo apt install git-all
 #
 #
 # OBS: A intalação havera passos para confirmar, e seguir adiante. "selecione sempre a opção (Y)".
+# 
+# criacao do diretorio do projeto
+#
+sudo mkdir -p Kafka
+#
+cd Kafka
+#
+# Cone do repositorio oficial do KAFKA
+#
+git clone https://github.com/confluentinc/cp-docker-images
 #
 #
+ls -lha
 #
+
