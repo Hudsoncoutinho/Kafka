@@ -1,6 +1,7 @@
 #!/bin/bash 
 #
 # Script de instalção das ferramentas: Docker / Docker Compose / git - (Linux -ubuntu)
+# OBS: A intalação havera passos para confirmar, e seguir adiante. "selecione sempre a opção (Y)".
 #
 # Atualiza o gerenciador de pacotes
 sudo apt-get update
@@ -34,7 +35,6 @@ docker-compose --version
 sudo apt install git-all
 #
 #
-# OBS: A intalação havera passos para confirmar, e seguir adiante. "selecione sempre a opção (Y)".
 # 
 # criacao do diretorio do projeto
 #
